@@ -35,8 +35,6 @@ pip install torch torchvision matplotlib
 
 
 
-*(This will install PyTorch, torchvision for pre-trained models, and matplotlib for visualizing results.)*
-
 ## How to Use
 
 1. Load the pretrained MobileNetV2 model.
