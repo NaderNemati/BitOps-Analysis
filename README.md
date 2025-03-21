@@ -2,28 +2,29 @@
 
 ## Project Overview
 
-This repository contains the implementation to evaluate the trade-offs in quantizing MobileNetV2's convolutional layers with different bit precision (2-bit, 4-bit, and 8-bit). The goal of this project is to optimize the model's performance and computational efficiency, particularly for deployment on edge devices and resource-constrained hardware.
+This repository contains the implementation to evaluate the trade-offs in quantizing MobileNetV2's convolutional layers with different bit precision (2-bit, 4-bit, 8-bit) and adaptive precision quantization. The quantization configurations aim to reduce memory and computational requirements, making the model more efficient for deployment on edge devices with limited resources.
 
-## Task Description
-
-This task investigates the impact of quantization on the MobileNetV2 architecture by adjusting the precision of its convolutional layers. The precision reductions lead to significant reductions in memory and computational requirements, making the model more efficient for deployment without compromising too much on performance.
+### Key Quantization Configurations:
+- **Adaptive Precision**: Layers receive a variable precision depending on their position in the network (higher precision for early layers and lower precision for deeper layers).
+- **Fixed 2-bit, 4-bit, and 8-bit**: Fixed quantization applied to each convolutional layer for comparisons.
 
 ### Key Benefits:
-- **Efficient Resource Utilization**: Lower bit precision helps reduce memory and processing power required for deploying models on mobile and edge devices.
-- **Model Performance Optimization**: Balancing computational efficiency and accuracy, especially in resource-limited settings.
-- **Scalability**: Enabling deployment of real-time applications such as image recognition.
+- **Efficient Resource Utilization**: Lower bit precision reduces memory and computational requirements, which is crucial for running models on mobile and edge devices.
+- **Model Performance Optimization**: Achieve a balance between computational efficiency and accuracy, adapting to specific deployment needs.
+- **Scalability**: Quantization helps make models more efficient and scalable for real-world applications like real-time image recognition.
 
 ## Requirements
 
 To run this project, you will need:
-- **MobileNetV2 Model**: A pretrained MobileNetV2 model used as the baseline.
-- **Quantization Libraries**: Libraries from a deep learning framework (like PyTorch) to apply quantization techniques.
-- **Computational Resources**: A development environment that can run deep learning models with at least CPU processing. Access to a GPU can speed up the training and evaluation process.
-- **Basic Knowledge**: Familiarity with quantization techniques and how they affect model performance.
+- **MobileNetV2 Model**: A pretrained MobileNetV2 model to serve as the baseline.
+- **Quantization Libraries**: A deep learning framework (e.g., PyTorch) to apply the quantization techniques.
+- **Computational Resources**: A development environment capable of running deep learning models with at least CPU processing. GPUs may accelerate training and evaluation.
+- **Basic Understanding of Quantization**: Familiarity with quantization techniques and their impact on model performance.
 
 ### Installation Instructions
 
 1. Clone the repository:
+
 
 git clone https://github.com/your_username/your_repo_name.git
 
