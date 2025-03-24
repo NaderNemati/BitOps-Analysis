@@ -34,20 +34,21 @@ Matplotlib and Tabulate: These are used to visualize and summarize results.
 Basic Understanding of Quantization: Familiarity with quantization techniques and their impact on computational efficiency.
 1. Clone the repository:
 
-'''
+```bash
 git clone https://github.com/NaderNemati/BitOps-Analysis
-'''
-
+```
 
 2. Install the required libraries using the following command:
 
-pip install requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 3. Run the repository by
 
+```bash
 python3 Quantization.py
-
-
+```
 
 ## How to Use
 
