@@ -1,5 +1,9 @@
 # MobileNetV2 Quantization
 
+### Notice!
+
+The **BitOps_Analysis.ipynb** notebook, which is the Google Colab implementation of the project, is available in the repository to provide easier access and a cloud-based environment for running the Federated Learning pipeline without requiring local setup.
+
 ## Project Overview
 
 This repository contains the implementation to evaluate the trade-offs in quantizing MobileNetV2's inverted residual blocks with different bit precision (2-bit, 4-bit, 8-bit) and adaptive precision quantization. The quantization configurations aim to reduce memory and computational requirements, making the model more efficient for deployment on edge devices with limited resources.
