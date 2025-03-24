@@ -19,7 +19,7 @@ This repository contains the implementation to evaluate the trade-offs in quanti
 
 To run this project, you will need:
 - **Pretrained MobileNetV2 Model**: A pretrained MobileNetV2 model to serve as the baseline.
-- **Quantization Libraries**: A deep learning framework (e.g., PyTorch) to apply the quantization techniques.
+- **Quantization Libraries**: PyTorch framework to implement and apply quantization techniques.
 - **Basic Understanding of Quantization**: Familiarity with quantization techniques and their impact on model performance.
 
 ### Installation Instructions
@@ -29,14 +29,14 @@ PyTorch: A deep learning framework used for loading and quantizing the MobileNet
 
 Pretrained MobileNetV2 Model: Extracted from the torchvision model zoo for baseline evaluation.
 
-Matplotlib and Tabulate: For visualizing and summarizing results.
+Matplotlib and Tabulate: These are used to visualize and summarize results.
 
 Basic Understanding of Quantization: Familiarity with quantization techniques and their impact on computational efficiency.
 1. Clone the repository:
 
-
+'''
 git clone https://github.com/your_username/your_repo_name.git
-
+'''
 
 
 2. Install the required libraries using the following command:
