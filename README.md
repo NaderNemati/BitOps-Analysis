@@ -41,7 +41,11 @@ git clone https://github.com/your_username/your_repo_name.git
 
 2. Install the required libraries using the following command:
 
-pip install torch torchvision matplotlib
+pip install requirements.txt
+
+3. Run the repository by
+
+python3 Quantization.py
 
 
 
