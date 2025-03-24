@@ -1,4 +1,5 @@
-# MobileNetV2 Quantization
+# MobileNetV2 Quantization and BitOps computation
+
 
 ### Notice!
 
