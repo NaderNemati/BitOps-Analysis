@@ -2,7 +2,7 @@
 
 ### Notice!
 
-The **BitOps_Analysis.ipynb** notebook, which is the Google Colab implementation of the project, is available in the repository to provide easier access and a cloud-based environment for running the Federated Learning pipeline without requiring local setup.
+The **BitOps_Analysis.ipynb** notebook, which is the Google Colab implementation of the project, is available in the repository to provide easier access and a cloud-based environment for running the BitOps analysis pipeline without requiring local setup.
 
 ## Project Overview
 
