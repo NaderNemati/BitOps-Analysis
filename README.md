@@ -35,7 +35,7 @@ Basic Understanding of Quantization: Familiarity with quantization techniques an
 1. Clone the repository:
 
 '''
-git clone https://github.com/your_username/your_repo_name.git
+git clone https://github.com/NaderNemati/BitOps-Analysis
 '''
 
 
